@@ -10,14 +10,13 @@ const images = [mealPlan, cocktail, password, blog, weather, planner];
 function Project(props) {
     const imageSpot = props.id;
     return (
-        <div className="card">
-            <div className="img-container">
-                <h2>{props.name}</h2>
-                <a href={props.appLink}>
-                    <img src={images[imageSpot]} alt={props.name} />
-                </a>
-                <a href={props.github}></a>
-            </div>
+        <div className="col-4">
+            <p className="project-title">{props.name}</p>
+            <a href={props.appLink}>
+                <img className="rounded float-start project-image" src={images[imageSpot]} alt={props.name} />
+
+            </a>
+            <a className="github" href={props.github}><i className="fab fa-github"></i></a>
         </div>
     )
 }

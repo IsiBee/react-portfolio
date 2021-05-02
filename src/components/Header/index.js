@@ -23,19 +23,22 @@ function Header() {
         }
     };
     return (
-        <header>
-            <h2>
-                <a data-testid="link" href="/">
-                    Isabelle Bertram
-        </a>
-            </h2>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div>
+        <>
+            <header>
+                <h1 className="mt-2 ml-3">
+                    <a className="title" data-testid="link" href="/">
+                        Isabelle Bertram
+                    </a>
+                </h1>
+                <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            </header>
+            <main>
                 {renderPage()}
-            </div>
-        </header>
 
-    )
+            </main>
+
+        </>
+    );
 }
 
 export default Header;

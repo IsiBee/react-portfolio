@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "name": "Random Password Generator",
+        "name": "Password Generator",
         "image": "../../assets/images/3.jpeg",
         "github": "https://github.com/IsiBee/password-challenge",
         "appLink": "https://isibee.github.io/password-challenge/"
@@ -29,14 +29,14 @@
     },
     {
         "id": 4,
-        "name": "Predict the Weather",
+        "name": "Weather App",
         "image": "../../assets/images/5.jpg",
         "github": "https://github.com/IsiBee/weather-challenge",
         "appLink": "https://isibee.github.io/weather-challenge/"
     },
     {
         "id": 5,
-        "name": "Plan your days",
+        "name": "Task Planner",
         "image": "../../assets/images/6.jpg",
         "github": "https://github.com/IsiBee/scheduler-challenge",
         "appLink": "https://isibee.github.io/scheduler-challenge/"

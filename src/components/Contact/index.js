@@ -39,21 +39,21 @@ function ContactForm() {
     return (
         <section>
             <h1 data-testid="contact">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+            <form id="contact-form" onSubmit={handleSubmit} className="px-5">
+                <div className="py-2">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" onBlur={handleChange} defaultValue={name} />
                 </div>
-                <div>
+                <div className="py-2">
                     <label htmlFor="email">Email address:</label>
                     <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
                 </div>
-                <div>
+                <div className="py-2">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" onBlur={handleChange} defaultValue={message} />
                 </div>
                 {errorMessage && (
-                    <div>
+                    <div className="py-1">
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}

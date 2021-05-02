@@ -6,14 +6,13 @@ function Resume() {
         <div>
             <h2>Resume</h2>
             <a href={myResume} download>Download Resume</a>
-            <h3>Core Competencies</h3>
             <ul>
-                <h4>Front End</h4>
+                <h3 className="py-2">Front End</h3>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <h4>Back End</h4>
+                <h3 className="py-2">Back End</h3>
                 <li>SQL</li>
                 <li>MongoDB</li>
                 <li>Node.js</li>

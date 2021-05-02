@@ -6,7 +6,7 @@ function Projects() {
     const [projectList, setProjects] = useState(projects)
 
     return (
-        <div>
+        <div className="row">
             {projectList.map((project) => <Project
                 id={project.id}
                 name={project.name}

@@ -3,7 +3,7 @@ import React from 'react';
 function Nav(props) {
     const navlinks = ['About', 'Projects', 'Contact', 'Resume'];
     return (
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs justify-content-end">
             {navlinks.map(link => (
                 <li className="nav-item" key={link}>
                     <a
