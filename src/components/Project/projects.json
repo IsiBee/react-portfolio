@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "The Meal Planner",
+        "image": "../../assets/images/1.jpeg",
+        "github": "https://github.com/IsiBee/meal-plan-challenge",
+        "appLink": "https://pumpkin-pie-32612.herokuapp.com/"
+    },
+    {
+        "id": 1,
+        "name": "Cocktail Picker",
+        "image": "../../assets/images/2.jpg",
+        "github": "https://github.com/IsiBee/cocktail-challenge",
+        "appLink": "https://isibee.github.io/cocktail-challenge/"
+    },
+    {
+        "id": 2,
+        "name": "Random Password Generator",
+        "image": "../../assets/images/3.jpeg",
+        "github": "https://github.com/IsiBee/password-challenge",
+        "appLink": "https://isibee.github.io/password-challenge/"
+    },
+    {
+        "id": 3,
+        "name": "Tech Blog",
+        "image": "../../assets/images/4.jpg",
+        "github": "https://github.com/IsiBee/blog-challenge",
+        "appLink": "https://pure-castle-64217.herokuapp.com/ "
+    },
+    {
+        "id": 4,
+        "name": "Predict the Weather",
+        "image": "../../assets/images/5.jpg",
+        "github": "https://github.com/IsiBee/weather-challenge",
+        "appLink": "https://isibee.github.io/weather-challenge/"
+    },
+    {
+        "id": 5,
+        "name": "Plan your days",
+        "image": "../../assets/images/6.jpg",
+        "github": "https://github.com/IsiBee/scheduler-challenge",
+        "appLink": "https://isibee.github.io/scheduler-challenge/"
+    }
+]

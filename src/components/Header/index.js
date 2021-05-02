@@ -3,10 +3,11 @@ import Nav from '../Navigation';
 import About from '../About';
 import Resume from '../Resume';
 import Contact from '../Contact';
-import Projects from '../Project';
+import Projects from '../Project/projects';
 
 function Header() {
     const [currentPage, handlePageChange] = useState('About');
+
     const renderPage = () => {
         switch (currentPage) {
             case 'Resume':
