@@ -12,9 +12,6 @@ main {
   --dark: #4c4258;
   --darker: #111111;
   --error: rgb(250, 56, 8);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
 
 }
 
@@ -181,4 +178,20 @@ color: var(--light);
 
 .project-title{
   font-size: 20px;
+}
+
+footer {
+    border-top: 1px solid var(--darker);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 50px;
+    
+}
+
+footer a {
+  padding-left: 30px;
+  color: var(--light);
 }
