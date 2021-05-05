@@ -11,7 +11,7 @@ The most difficult part about this project is figuring out how to display the im
 
 ### Screenshot
 
-![Screenshot of Portfolio](./src/images/react_portfolio.png)
+![Screenshot of Portfolio](./src/assets/images/react_portfolio.png)
 
 ### Access Application
 
