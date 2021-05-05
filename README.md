@@ -16,4 +16,4 @@ The most difficult part about this project is figuring out how to display the im
 ### Access Application
 
 * https://github.com/IsiBee/react-portfolio - Github Repo
-* https://isibee.github.io/react-portfolio/- Deployed App
+* https://isibee.github.io/react-portfolio/ - Deployed App
